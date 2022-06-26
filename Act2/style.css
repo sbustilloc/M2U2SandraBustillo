@@ -1,0 +1,24 @@
+
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-abstracto-blanco_23-2148825582.jpg?t=st=1656042666~exp=1656043266~hmac=46f889b70dce11d7aeb367dcbbe93266722fa14517405c23afdae01073c2899c&w=740");
+    
+  }
+
+  form {
+    display: grid; /* to use css-grid */
+    grid-template-columns: 1fr 1fr; /* creates 2 columns */
+    gap: 20px; /* creates a gap between the columns and rows */
+  }
+  
+  form h3,
+  form h4,
+  form p,
+  form button {
+    grid-column: span 2; /* lets those elements span both columns */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    /* flexbox is sued to palce the label and input below each other and allows the input to fill out the entrie width */
+  }
